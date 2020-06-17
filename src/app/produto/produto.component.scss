@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.header{
+  background-color: #238080;
+  /* border-bottom: 2px solid  #238080; */
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-left: 0;
+  margin:0;
+  position:absolute;
+  top:0;
+  left:0;
+  right: 0;
+  height: 10%;
+  display:flex;
+  justify-content: space-between;
+ }
+ .titulo{
+  margin-left:10px ;
+  /* // margin-top:-4px; */
+  align-self:center;
+ }
+
+ .bttnLoginIcon{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   cursor: pointer;
+ }
+.buttonLogin{
+  background-color: #238080;
+  color: white;
+  padding: 0px  ;
+  font-size:20px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right:50px;
+  cursor: pointer;
+  outline: none;
+  border:none;
+  height: 40px;
+  padding:0px 8px 0px 8px;
+  align-self:center;
+  align-items:center;
+  /* margin-right:5%; */
+ 
+}
+
+.iconLogin{
+  width:20px;
+  align-self:center;
+  
+}
+.img{
+  width:100%;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  
+}
+
+.column {
+    float: left;
+    margin-top:40%;
+   
+    /* padding: 0 5px; */
+    padding: 0 15px;
+  
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+    margin-top:45%;
+    margin-left:-5px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600x) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      display:flex;
+      justify-content: space-around;
+      
+    }
+  }
+  .icon{
+    margin-top:10px;
+    align-items:center;
+  }
+  .card {
+/* Add shadows to create the "card" effect */
+      
+      
+      
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+      border: 2px solid #FF4700;
+      border-radius: 10px; /* 5px rounded corners */
+      margin-top:10%;
+      height: 50%;
+     
+      
+  }
+  .button{
+      background-color: #FF4700;
+      border: 1px solid #FF4700;
+      color: white;
+      padding: 8px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      text-decoration: none;
+      border-radius: 8px;
+      /* margin-right:5%; */
+     
+      margin-left:27%;
+      cursor: pointer;
+      margin-bottom:2%;
+      outline: none;
+   
+  }
+  .card-img-top{
+    border-radius: 10px;
+  }
+  
+  .card-body{
+    margin-left: 6%;
+    
+  
+  }
+  .card-description{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:0px;
+    margin-left:0px;
+  }
+  .card-price{
+      margin-top:-2%;
+      font-weight: bolder;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .depart{
+      font-size:27px;
+      font-family: 'Montserrat', sans-serif;
+      color:black;
+      margin-bottom: -39%;
+      margin-left:2%;
+
+
+  }
+  .card-storage{
+    font-family: 'Montserrat', sans-serif;
+  }
